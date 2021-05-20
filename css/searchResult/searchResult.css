@@ -1,0 +1,35 @@
+#searchResultBody{
+  padding: 0;
+  margin: 0;
+}
+
+.books-display {
+  margin-top: 22px;
+  width: 100%;
+  /*position: absolute;*/
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 24px;
+  align-items: center;
+  justify-items: center;
+}
+#searchContainer{
+  top:20% ;
+  position: absolute;
+  width: 100%;
+  display: none;
+}
+
+.cell {
+  width: 300px;
+}
+
+#preLoader {
+  position: absolute;
+  top: 45%;
+  left: 43%;
+}
+
+#SearchResultNavBar{
+  display: none;
+}

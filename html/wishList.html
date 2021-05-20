@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wish List</title>
+    <link
+      href="../css/wishList/wishList.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body id="cartBody">
+    <div id="preLoader">
+      <img src="../images/loader.gif" />
+    </div>
+    <div id="header"></div>
+    <div id="cartContainer">
+      <div id="emptyCart">
+        <img
+          id="cartImage"
+          src="../images/emptywishlist.png"
+          width="400"
+          height="400"
+        />
+        <pre id="message">
+        You have no items in your wish list. 
+        Click <a href="CategoryDedails.html"><b>here</b></a> to continue shopping.
+      </pre>
+      </div>
+
+      <div id="tableCart">
+        <table id="cart" class="cart">
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Title</th>
+              <th>Price</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="items"></tbody>
+        </table>
+      </div>
+      <div id="cartfooter"></div>
+    </div>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/shared/cookieFunction.js"></script>
+    <script src="../js/shared/arrayFunctions.js"></script>
+    <script src="../js/wishList/wishList.js"></script>
+  </body>
+</html>

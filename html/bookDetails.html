@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Details</title>
+    <link
+      rel="stylesheet"
+      href="../css/card/bookDetailsCards.css"
+      type="text/css"
+    />
+  </head>
+  <body id="bookDetailsBody">
+    <div id="preLoader">
+      <img src="../images/loader.gif" />
+    </div>
+    <div id="bookDetailsHeader"></div>
+
+    <div id="bodyDivId">
+      <div class="bookBibliographic">
+        <div class="bookDivImage">
+          <img class="bookImage" />
+        </div>
+        <div class="bookInfoSection">
+          <div class="selectedBook">
+            <span class="bookdesign">Title :</span>
+            <span class="bookTitle"></span>
+          </div>
+          <div class="selectedBook">
+            <span class="bookdesign">Author :</span>
+            <span class="bookAuthor"></span>
+          </div>
+          <div class="selectedBook">
+            <span class="bookdesign">Price :</span>
+            <span class="bookPrice"></span>
+          </div>
+          <div class="selectedBook">
+            <span class="bookdesign">Available :</span>
+            <span class="bookStock"></span>
+          </div>
+          <div class="selectedBook">
+            <span class="bookdesign">Rate :</span>
+            <span class="bookRate">
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </span>
+          </div>
+          <div class="addCartButton">
+            <input type="button" value="Add to cart" class="addCartBtn" />
+            <input type="button" value="Add to wish list" class="addWishBtn" />
+          </div>
+          <div class="addCartButton secondTime">
+            <input type="button" value="-" class="minus" />
+            <p class="selectedItems">(0) in cart</p>
+            <input type="button" value="+" class="plus" />
+          </div>
+        </div>
+      </div>
+      <div id="bookDetailsFooter"></div>
+    </div>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/shared/cookieFunction.js"></script>
+    <script src="../js/shared/arrayFunctions.js"></script>
+    <script src="../js/books/bookDetails.js"></script>
+  </body>
+</html>

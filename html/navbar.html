@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/navBar/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body id="navigationBar">
+    <div class="navbar">
+      <div>
+        <a href="home.html">
+          <img src="../images/newLogo.jpg" width="120" height="70"
+        /></a>
+        <!-- <p>uBook</p> -->
+      </div>
+      <div class="leftMenu">
+        <li class="menuItems">
+          <a id="home" href="home.html">Home</a>
+          <a id="cat" href="CategoryDedails.html">Categories</a>
+          <a id="event" href="events.html">Events</a>
+          <a id="about" href="aboutUs.html">About</a>
+          <a id="contactus" href="contactUs.html">Contact us</a>
+        </li>
+      </div>
+
+      <div class="rightMenu">
+        <a id="signInbtn" href="./signin.html">Sign in</a>
+        <a id="profile" href="./profile.html"
+          ><img src="../images/user.svg" width="35px" height="35px"
+        /></a>
+
+        <div id="wishList">
+          <a id="wishlist" href="wishList.html">
+            <i id="wishLogo" class="fa fa-heart-o"></i
+          ></a>
+          <span class="numberwish">0</span>
+        </div>
+        <div id="cartlogo">
+          <a id="shoppingCart" href="cart.html">
+            <img
+              id="cartlogo"
+              src="../images/cartLogo.png"
+              height="40"
+              width="40"
+            />
+          </a>
+          <span class="numberlogo">0</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/shared/cookieFunction.js"></script>
+    <script src="../js/shared/arrayFunctions.js"></script>
+    <script src="../js/navbar/navbar.js"></script>
+  </body>
+</html>

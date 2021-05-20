@@ -1,0 +1,58 @@
+.sideBarBody {
+  font-family: cursive;
+  font-size: 15pt;
+  margin-left: 3%;
+}
+
+.sectionLab {
+  margin-bottom: 1%;
+  margin-top: 2%;
+  color: coral;
+  font-size: 20pt;
+  font-weight: 500;
+}
+
+#priceDiv {
+  margin-top: 2%;
+  color: coral;
+}
+
+#fromtxt,
+#totxt {
+  height: 25px;
+  width: 50%;
+}
+
+#toDiv,
+#fromDiv {
+  display: table-cell;
+}
+#sideBarContainer{
+  line-height: 2.5;
+}
+
+#innerDiv{
+  margin-top: 2%;
+  border-bottom: 1px dashed coral;
+  width: 200px;
+  padding-bottom: 15px;
+}
+#innerDiv input{
+  cursor: pointer;
+  width:20px;
+  height:20px;
+  
+}
+#innerDiv label{
+  margin-left:5px;
+  color: coral;
+  cursor: pointer;
+}
+#myRange{
+  width: 200px;
+  margin-left:2%;
+  margin-top: 2%;
+}
+
+
+
